@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: oldlace;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+}
+
+#header{
+    padding: 60px 0px 40px 0;
+    background-color: #a50b20;
+    text-align: center;
+
+}
+
+#header h1{
+    letter-spacing: 0.1em;
+    font-size: 44px;
+    color: #ffffff;
+
+}
+
+#menu{
+    background-color: #16a085;
+    height: 80px;
+    text-align: right;
+}
+
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px;
+    color: #0a0a0a;
+    padding: 0 40px;
+    border: none;
+}
+
+#menu a:hover{
+    background-color: #ffffff;
+}
+
+#home{
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+#home h3{
+    text-align: left;
+    text-decoration: ;
+    font-family: serif;
+}
+
+#cars{
+    margin: 5px; ;
+    padding:1px ;
+}
+
+#about p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+    padding: 5px;
+}
+
+body
+{
+    background-color: #efefef;
+    font-family: sans-serif; 
+}
+
+.contact-box
+{
+    width: 500px;
+    background-color: #efefef ;
+    top: 120%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+form
+{
+    margin: 35px;
+
+}
+.input-field
+{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field
+{
+    height: 150px;
+    padding-top: 10px;
+
+}
+.btn
+{
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
