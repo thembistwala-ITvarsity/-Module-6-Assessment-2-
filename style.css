@@ -45,11 +45,22 @@ body{
     background-color: #ffffff;
 }
 
+
+
 #home{
-    margin: 10px;
-    padding: 10px;
-    
+
+    width: 300px;
+   background-color:rgb(231, 230, 230) ;
+   box-shadow: 0 0 20px 0 #999;
+   top: 180%;
+   left: 5%;
+   transform: translate(5%, 5%);
+   position: relative;
+   margin: 10px;
+   padding: 10px;
+   
 }
+
 
 #home h3{
     text-align: left;
@@ -57,10 +68,23 @@ body{
     font-family: serif;
 }
 
+
+#home a:hover{
+    background-color: #e62908;
+}
+
+
 #cars{
+    
     margin: 5px; ;
     padding:1px ;
 }
+
+#cars a:hover{
+    background-color: #e62908;
+}
+
+
 
 #about p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -73,6 +97,7 @@ body
     background-color: #efefef;
     font-family: sans-serif; 
 }
+
 
 .contact-box
 {
